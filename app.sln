@@ -1,0 +1,42 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14CBD8A7-F4D0-4D2E-A5A8-D92D0D3B69B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{84A6F4C1-A5B4-4331-A818-396360B3D1BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "src\app\api\api.csproj", "{3AD6329C-C800-4D37-B95D-113ECC7BC824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Debug|x64.ActiveCfg = Debug|x64
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Debug|x64.Build.0 = Debug|x64
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Debug|x86.ActiveCfg = Debug|x86
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Debug|x86.Build.0 = Debug|x86
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Release|x64.ActiveCfg = Release|x64
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Release|x64.Build.0 = Release|x64
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Release|x86.ActiveCfg = Release|x86
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84A6F4C1-A5B4-4331-A818-396360B3D1BB} = {14CBD8A7-F4D0-4D2E-A5A8-D92D0D3B69B4}
+		{3AD6329C-C800-4D37-B95D-113ECC7BC824} = {84A6F4C1-A5B4-4331-A818-396360B3D1BB}
+	EndGlobalSection
+EndGlobal
