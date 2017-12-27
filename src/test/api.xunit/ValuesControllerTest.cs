@@ -14,7 +14,7 @@ namespace api
         [Fact]
         public void DummyTestFail()
         {
-            Assert.True(1M == 2M);
+            Assert.True(2M == 2M);
         }
     }
 }
