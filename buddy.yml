@@ -11,7 +11,7 @@
     - "dotnet test src/test/*/*.csproj"
     trigger_condition: "ALWAYS"
   
-  - action: "Build Docker image"
+  - action: "Build and publish Docker image"
     type: "DOCKERFILE"
     login: "tomassundvall"
     password: ${docker-repo-pswd}
