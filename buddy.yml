@@ -9,7 +9,7 @@
     docker_image_tag: "16.04"
     execute_commands:
     - "echo ${BASE_VERSION}"
-    - "SET BASE_VERSION = "TEST"
+    - "EXPORT BASE_VERSION = \"TEST\""
     - "echo ${BASE_VERSION}"
     trigger_condition: "ALWAYS"
 
