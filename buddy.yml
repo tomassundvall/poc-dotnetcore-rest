@@ -3,13 +3,13 @@
   ref_name: "master"
   actions:
   
-- action: "Execute: echo ${BASE_VERSION}"
+- action: "Test"
     type: "BUILD"
     docker_image_name: "library/ubuntu"
     docker_image_tag: "16.04"
     execute_commands:
     - "echo ${BASE_VERSION}"
-    - "SET BASE_VERSION = \"TEST\""
+    - "SET BASE_VERSION = "TEST"
     - "echo ${BASE_VERSION}"
     trigger_condition: "ALWAYS"
 
