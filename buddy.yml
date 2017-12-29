@@ -3,7 +3,7 @@
   ref_name: "master"
   actions:
   
-- action: "Test"
+  - action: "Test"
     type: "BUILD"
     docker_image_name: "library/ubuntu"
     docker_image_tag: "16.04"
