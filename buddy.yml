@@ -19,6 +19,7 @@
     dockerfile_path: "Dockerfile"
     repository: "tomassundvall/poc-dotnet-rest"
     trigger_condition: "ALWAYS"
+    disabled: true
   
   - action: "Send Email notification"
     type: "EMAIL"
